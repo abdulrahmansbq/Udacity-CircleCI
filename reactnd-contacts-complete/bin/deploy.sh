@@ -1,1 +1,2 @@
-aws s3 cp --recursive --acl public-read ./build s3://udagram-test01/
+aws configure set aws_session_token "FwoGZXIvYXdzEIv//////////wEaDPjwRF1rOzP87Xc55CLVAd9gmllvlRGfDfwdrlllL1gArbxTo7/oCtD/nrbmVFgGKQxA7DlL3y5FkpnNIkIaUiJDSoPR7F8SSgEX3Qg5mvB/bGrCbqEtv6gZ329eALEVYymxTG88PJTZtCwJFK9sKTaO1UFAl3nA0gfLafmL4yktdQZy+SZHRpUGzGsSI5/sxnIxP4oKg0QmkVbmwYTEIsZilvj1r7GJcu0jFGDXnZP7bFiXbrhGlA7hakejckliAG+BqjU2FGxzy4SD2D33kmYz9iLpXHVnoejB5msYBdLSMHZXMyjslZSdBjItxYwhBYXtfSohmQZJn6uKPVNpD41ErsAiB1PTMzIFbDGHZ80skiK668PxJBQI"
+aws s3 cp --recursive --acl public-read ./build s3://elasticbeanstalk-us-east-2-462415143450/
